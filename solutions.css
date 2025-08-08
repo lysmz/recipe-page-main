@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--Stone150);
+    background-color: var(--Stone100);
     display: flex;
     margin: 0;
     align-items: center;
