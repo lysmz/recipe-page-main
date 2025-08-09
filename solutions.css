@@ -45,6 +45,7 @@ img{
 
 h1, h2 {
     font-family: Young Serif;
+    font-weight: 400;
     color: var(--Stone900);
 }
 
@@ -134,6 +135,6 @@ tr td:last-child {
     color: var(--Brown800);
 }
 
-table tr:last-child td {
+table tr:last-child , table tr td:nth-last-child(n) {
     border-bottom: none;
 }
